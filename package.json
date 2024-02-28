@@ -1,7 +1,7 @@
 {
-  "name": "@mui/monorepo",
+  "name": "innapsis",
   "version": "5.15.11",
-  "private": true,
+  "private": false,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "proptypes": "tsx ./scripts/generateProptypes.ts",
@@ -224,5 +224,21 @@
     ],
     "sourceMap": false,
     "instrument": false
-  }
+  },
+  "description": "<!-- markdownlint-disable-next-line --> <p align=\"center\">   <a href=\"https://mui.com/core/\" rel=\"noopener\" target=\"_blank\"><img width=\"150\" height=\"133\" src=\"https://mui.com/static/logo.svg\" alt=\"MUI Core logo\"></a> </p>",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VictorGracia/mui/material-ui.git"
+  },
+  "keywords": [
+    "mui"
+  ],
+  "author": "VictorGracia",
+  "license": "ISC"
 }
